@@ -1,36 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.widget.LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".view.activities.MainActivity">
-
+    android:orientation="vertical">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@mipmap/ic_launcher" />
+        android:layout_width="400dp"
+        android:layout_height="87dp"
+        android:src="@drawable/S" />
 
     <Button
         android:id="@+id/start_button"
-        android:layout_width="wrap_content"
+        android:layout_width="395dp"
         android:layout_height="wrap_content"
         android:text="START" />
 
     <Button
         android:id="@+id/basket"
-        android:layout_width="wrap_content"
+        android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:text="BASKET" />
 
+    <Button
+        android:id="@+id/recipe"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:text="RECIPE" />
+
+    <Button
+        android:id="@+id/research"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:text="RESEARCH" />
+
     <TextView
         android:id="@+id/textView"
-        android:layout_width="match_parent"
+        android:layout_width="424dp"
         android:layout_height="wrap_content"
-        android:textSize="70dp"
-        android:text="TextView" />
+        android:text="Smartmitton"
+        android:textSize="70dp" />
+
+
 
 
 </android.widget.LinearLayout>

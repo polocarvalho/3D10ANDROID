@@ -7,9 +7,8 @@ import android.os.Handler
 import android.support.v4.content.ContextCompat.startActivity
 import android.util.Log
 import e.polo.smartmitton.R
-
+import e.polo.smartmitton.R.id.textView
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlin.concurrent.thread
 
 /*
 
@@ -43,7 +42,7 @@ class MainActivity : AppCompatActivity() {
     fun finishNetwork( ){
 
         handler.post(Runnable {
-            textView.text = "Finish"
+            //textView.text = "Finish"
         })
     }
 
