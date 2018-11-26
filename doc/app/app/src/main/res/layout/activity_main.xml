@@ -10,7 +10,7 @@
     <ImageView
         android:layout_width="400dp"
         android:layout_height="87dp"
-        android:src="@drawable/logo"
+        android:src="@drawable/ic_launcher_background"
         android:contentDescription="@string/todo" />
 
     <Button
