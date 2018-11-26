@@ -1,0 +1,9 @@
+@Dao
+interface IngredientDao{
+
+    @Query(value:"select * from ingredient")
+    fun loadAllIngredients(): List<Ingredient>
+
+    @Insert(onConflict = IGNORE)
+    fun insertIngredient(ingredient: Ingredient)
+}
