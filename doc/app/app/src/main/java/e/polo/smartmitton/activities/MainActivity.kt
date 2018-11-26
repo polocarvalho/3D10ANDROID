@@ -8,6 +8,7 @@ import android.support.v4.content.ContextCompat.startActivity
 import android.util.Log
 import e.polo.smartmitton.R
 import e.polo.smartmitton.R.id.textView
+import e.polo.smartmitton.data.DAO.appdatabase
 import kotlinx.android.synthetic.main.activity_main.*
 
 /*
@@ -52,6 +53,14 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         Log.d(TAG, "onCreate()")
+
+
+        val mDb = appdatabase.getInMemoryDatabase(application)
+
+        var list = mDb?.ingredientModel()?.loadAllIngredients()
+
+
+        Log.d("TEST",""+list?.size)
 
         start_button.setOnClickListener {
 
@@ -109,4 +118,6 @@ class MainActivity : AppCompatActivity() {
         Log.d(TAG, "onDestroy()")
 
     }
+
+
 }
