@@ -10,39 +10,39 @@
     <ImageView
         android:layout_width="400dp"
         android:layout_height="87dp"
-        android:src="@drawable/S" />
+        android:src="@drawable/logo"
+        android:contentDescription="@string/todo" />
 
     <Button
         android:id="@+id/start_button"
         android:layout_width="395dp"
         android:layout_height="wrap_content"
-        android:text="START" />
+        android:text="@string/start" />
 
     <Button
         android:id="@+id/basket"
         android:layout_width="400dp"
         android:layout_height="wrap_content"
-        android:text="BASKET" />
+        android:text="@string/basket" />
 
     <Button
         android:id="@+id/recipe"
         android:layout_width="395dp"
         android:layout_height="wrap_content"
-        android:text="RECIPE" />
+        android:text="@string/recipe" />
 
     <Button
         android:id="@+id/research"
         android:layout_width="395dp"
         android:layout_height="wrap_content"
-        android:text="RESEARCH" />
+        android:text="@string/research" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="424dp"
         android:layout_height="wrap_content"
-        android:text="Smartmitton"
-        android:textSize="70dp" />
-
+        android:text="@string/smartmitton"
+        android:textSize="70sp" />
 
 
 

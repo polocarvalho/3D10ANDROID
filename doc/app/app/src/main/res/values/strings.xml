@@ -3,4 +3,9 @@
     <string name="basket">BASKET</string>
     <string name="recete">RECETE</string>
     <string name="search">SEARCH</string>
+    <string name="start">START</string>
+    <string name="recipe">RECIPE</string>
+    <string name="research">RESEARCH</string>
+    <string name="smartmitton">Smartmitton</string>
+    <string name="todo">TODO</string>
 </resources>
