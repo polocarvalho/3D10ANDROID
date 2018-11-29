@@ -1,11 +1,8 @@
 <resources>
-    <string name="app_name">smartmitton</string>
-    <string name="basket">BASKET</string>
-    <string name="recete">RECETE</string>
-    <string name="search">SEARCH</string>
-    <string name="start">START</string>
-    <string name="recipe">RECIPE</string>
-    <string name="research">RESEARCH</string>
-    <string name="smartmitton">Smartmitton</string>
-    <string name="todo">TODO</string>
+    <string name="app_name">Bluetooth</string>
+    
+    <string name="refresh">Refresh</string>
+    <string name="On">On</string>
+    <string name="Off">Off</string>
+    <string name="Disconnect">Disconnect</string>
 </resources>

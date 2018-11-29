@@ -1,4 +1,4 @@
-package e.polo.smartmitton
+package com.example.asus.bluetooth
 
 import org.junit.Test
 
